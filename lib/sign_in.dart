@@ -6,7 +6,7 @@ import 'package:ora_app/Util/session_manager.dart';
 import 'package:ora_app/Utils/Constants.dart';
 import 'package:ora_app/forget_password_screen.dart';
 import 'package:ora_app/home_page.dart';
-import 'package:ora_app/sign_up.dart';
+import 'file:///E:/hashtag%20progects/ora-master/lib/register/sign_up.dart';
 import 'package:provider/provider.dart';
 import 'Models/userModel.dart';
 import 'Utils/form_validators.dart';

@@ -17,6 +17,7 @@ import 'package:ora_app/widget/MainWidget.dart';
 import 'package:provider/provider.dart';
 import 'Models/cartModel.dart';
 import 'Network/API.dart';
+import 'Providers/implants_provider.dart';
 import 'app_bar.dart';
 import 'package:http/http.dart' as http;
 
@@ -62,6 +63,11 @@ class _HomePageState extends State<HomePage> {
 
 
 
+    Provider.of<ImplantProvider>(context, listen: false)
+        .getImplants()
+        .then((value) {});
+
+
   }
 
   @override
@@ -83,17 +89,22 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           children: <Widget>[
             Expanded(
-              child: Provider.of<CategoriesProvider>(context).categoryList.isEmpty
+              child:
+              // Provider.of<CategoriesProvider>(context).categoryList.isEmpty
+              Provider.of<ImplantProvider>(context).cats.isEmpty
                   ? Center(
                       child: CircularProgressIndicator(
                         backgroundColor: Colors.teal,
                       ),
                     )
                   : ListView.builder(
-                      itemCount: Provider.of<CategoriesProvider>(context,
-                              listen: false)
-                          .categoryList
-                          .length,
+                      itemCount:
+                      // Provider.of<CategoriesProvider>(context,
+                      //         listen: false)
+                      //     .categoryList
+                      //     .length
+                Provider.of<ImplantProvider>(context,listen: false).cats.length
+                ,
                       itemBuilder: (BuildContext context, int index) {
                         return Padding(
                           padding: const EdgeInsets.all(8.0),
@@ -106,12 +117,12 @@ class _HomePageState extends State<HomePage> {
                               );
                             },
                             child: MainWidget(
-                                Provider.of<CategoriesProvider>(context)
-                                    .categoryList[index]
+                                Provider.of<ImplantProvider>(context)
+                                    .cats[index]
                                     .engName,
-                                Provider.of<CategoriesProvider>(context)
-                                    .categoryList[index]
-                                    .imageUrl,
+                                Provider.of<ImplantProvider>(context)
+                                    .cats[index]
+                                    .image,
                                 context),
                           ),
                         );

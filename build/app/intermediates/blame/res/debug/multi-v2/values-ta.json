@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\ora-master\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ta\\values-ta.xml",
+            "outputFile": "E:\\hashtag progects\\ora-master\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ta\\values-ta.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Prp\\.gradle\\caches\\transforms-2\\files-2.1\\ce1635782ed616d72db5bb7f69df3596\\core-1.1.0\\res\\values-ta\\values-ta.xml",

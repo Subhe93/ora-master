@@ -1,18 +1,18 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\ora-master\android\app\src\main\AndroidManifest.xml:1:1-47:12
-INJECTED from E:\ora-master\android\app\src\main\AndroidManifest.xml:1:1-47:12
-INJECTED from E:\ora-master\android\app\src\main\AndroidManifest.xml:1:1-47:12
-INJECTED from E:\ora-master\android\app\src\main\AndroidManifest.xml:1:1-47:12
-MERGED from E:\ora-master\android\app\src\main\AndroidManifest.xml:1:1-47:12
-MERGED from [:video_player] E:\ora-master\build\video_player\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:fluttertoast] E:\ora-master\build\fluttertoast\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:shared_preferences] E:\ora-master\build\shared_preferences\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:flutter_inappwebview] E:\ora-master\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-20:12
-MERGED from [:stripe_payment] E:\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-37:12
-MERGED from [:url_launcher] E:\ora-master\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-14:12
-MERGED from [:sqflite] E:\ora-master\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:path_provider] E:\ora-master\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+ADDED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:1:1-47:12
+MERGED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:1:1-47:12
+MERGED from [:video_player] E:\hashtag progects\ora-master\build\video_player\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:fluttertoast] E:\hashtag progects\ora-master\build\fluttertoast\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences] E:\hashtag progects\ora-master\build\shared_preferences\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_inappwebview] E:\hashtag progects\ora-master\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-20:12
+MERGED from [:stripe_payment] E:\hashtag progects\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-37:12
+MERGED from [:url_launcher] E:\hashtag progects\ora-master\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-14:12
+MERGED from [:sqflite] E:\hashtag progects\ora-master\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider] E:\hashtag progects\ora-master\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [com.stripe:stripe-android:10.4.6] C:\Users\Prp\.gradle\caches\transforms-2\files-2.1\add83d1072afefdb7f87a1292b04eb4f\jetified-stripe-android-10.4.6\AndroidManifest.xml:2:1-29:12
 MERGED from [com.stripe:stripe-3ds2-android:1.2.2] C:\Users\Prp\.gradle\caches\transforms-2\files-2.1\918d596918a87360d93eed697e2a3739\jetified-stripe-3ds2-android-1.2.2\AndroidManifest.xml:2:1-20:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Prp\.gradle\caches\transforms-2\files-2.1\c5dbb7d3005eada7cc6df0859c50f2e0\material-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -61,31 +61,31 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Prp\.gradle\cach
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Prp\.gradle\caches\transforms-2\files-2.1\83186ecf5c8ddeae84db330840a1a96d\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Prp\.gradle\caches\transforms-2\files-2.1\86c784bf68d2d55319264b405834eb0f\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Prp\.gradle\caches\transforms-2\files-2.1\59ef8ff78b39f0fed4b156cee58382c6\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from E:\ora-master\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-INJECTED from E:\ora-master\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-INJECTED from E:\ora-master\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from E:\hashtag progects\ora-master\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from E:\hashtag progects\ora-master\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from E:\hashtag progects\ora-master\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 	package
-		ADDED from E:\ora-master\android\app\src\main\AndroidManifest.xml:2:5-30
-		INJECTED from E:\ora-master\android\app\src\main\AndroidManifest.xml
-		INJECTED from E:\ora-master\android\app\src\debug\AndroidManifest.xml
+		ADDED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:2:5-30
+		INJECTED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\hashtag progects\ora-master\android\app\src\debug\AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\ora-master\android\app\src\main\AndroidManifest.xml
-		ADDED from E:\ora-master\android\app\src\main\AndroidManifest.xml:1:1-47:12
-		INJECTED from E:\ora-master\android\app\src\debug\AndroidManifest.xml
+		INJECTED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml
+		ADDED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:1:1-47:12
+		INJECTED from E:\hashtag progects\ora-master\android\app\src\debug\AndroidManifest.xml
 	android:versionCode
-		INJECTED from E:\ora-master\android\app\src\main\AndroidManifest.xml
-		ADDED from E:\ora-master\android\app\src\main\AndroidManifest.xml:1:1-47:12
-		INJECTED from E:\ora-master\android\app\src\debug\AndroidManifest.xml
+		INJECTED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml
+		ADDED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:1:1-47:12
+		INJECTED from E:\hashtag progects\ora-master\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\ora-master\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:1:11-69
 application
-ADDED from E:\ora-master\android\app\src\main\AndroidManifest.xml:8:5-46:19
-MERGED from [:flutter_inappwebview] E:\ora-master\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-18:19
-MERGED from [:flutter_inappwebview] E:\ora-master\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-18:19
-MERGED from [:stripe_payment] E:\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-35:19
-MERGED from [:stripe_payment] E:\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-35:19
-MERGED from [:url_launcher] E:\ora-master\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-12:19
-MERGED from [:url_launcher] E:\ora-master\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-12:19
+ADDED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:8:5-46:19
+MERGED from [:flutter_inappwebview] E:\hashtag progects\ora-master\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-18:19
+MERGED from [:flutter_inappwebview] E:\hashtag progects\ora-master\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-18:19
+MERGED from [:stripe_payment] E:\hashtag progects\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-35:19
+MERGED from [:stripe_payment] E:\hashtag progects\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-35:19
+MERGED from [:url_launcher] E:\hashtag progects\ora-master\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher] E:\hashtag progects\ora-master\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-12:19
 MERGED from [com.stripe:stripe-android:10.4.6] C:\Users\Prp\.gradle\caches\transforms-2\files-2.1\add83d1072afefdb7f87a1292b04eb4f\jetified-stripe-android-10.4.6\AndroidManifest.xml:11:5-27:19
 MERGED from [com.stripe:stripe-android:10.4.6] C:\Users\Prp\.gradle\caches\transforms-2\files-2.1\add83d1072afefdb7f87a1292b04eb4f\jetified-stripe-android-10.4.6\AndroidManifest.xml:11:5-27:19
 MERGED from [com.stripe:stripe-3ds2-android:1.2.2] C:\Users\Prp\.gradle\caches\transforms-2\files-2.1\918d596918a87360d93eed697e2a3739\jetified-stripe-3ds2-android-1.2.2\AndroidManifest.xml:11:5-18:19
@@ -109,75 +109,75 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Pr
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\Prp\.gradle\caches\transforms-2\files-2.1\ce1635782ed616d72db5bb7f69df3596\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from E:\ora-master\android\app\src\main\AndroidManifest.xml:10:9-32
+		ADDED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:10:9-32
 	android:icon
-		ADDED from E:\ora-master\android\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:11:9-43
 	android:theme
-		ADDED from [:stripe_payment] E:\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:11:18-74
+		ADDED from [:stripe_payment] E:\hashtag progects\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:11:18-74
 	android:name
-		ADDED from E:\ora-master\android\app\src\main\AndroidManifest.xml:9:9-57
+		ADDED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:9:9-57
 activity#hashtag.ora_app.MainActivity
-ADDED from E:\ora-master\android\app\src\main\AndroidManifest.xml:12:9-40:20
+ADDED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:12:9-40:20
 	android:launchMode
-		ADDED from E:\ora-master\android\app\src\main\AndroidManifest.xml:14:13-43
+		ADDED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:14:13-43
 	android:hardwareAccelerated
-		ADDED from E:\ora-master\android\app\src\main\AndroidManifest.xml:17:13-47
+		ADDED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:17:13-47
 	android:windowSoftInputMode
-		ADDED from E:\ora-master\android\app\src\main\AndroidManifest.xml:18:13-55
+		ADDED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:18:13-55
 	android:configChanges
-		ADDED from E:\ora-master\android\app\src\main\AndroidManifest.xml:16:13-163
+		ADDED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:16:13-163
 	android:theme
-		ADDED from E:\ora-master\android\app\src\main\AndroidManifest.xml:15:13-47
+		ADDED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:15:13-47
 	android:name
-		ADDED from E:\ora-master\android\app\src\main\AndroidManifest.xml:13:13-41
+		ADDED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:13:13-41
 meta-data#io.flutter.embedding.android.NormalTheme
-ADDED from E:\ora-master\android\app\src\main\AndroidManifest.xml:23:13-26:17
+ADDED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:23:13-26:17
 	android:resource
-		ADDED from E:\ora-master\android\app\src\main\AndroidManifest.xml:25:15-52
+		ADDED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:25:15-52
 	android:name
-		ADDED from E:\ora-master\android\app\src\main\AndroidManifest.xml:24:15-70
+		ADDED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:24:15-70
 meta-data#io.flutter.embedding.android.SplashScreenDrawable
-ADDED from E:\ora-master\android\app\src\main\AndroidManifest.xml:32:13-35:17
+ADDED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:32:13-35:17
 	android:resource
-		ADDED from E:\ora-master\android\app\src\main\AndroidManifest.xml:34:15-61
+		ADDED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:34:15-61
 	android:name
-		ADDED from E:\ora-master\android\app\src\main\AndroidManifest.xml:33:15-79
+		ADDED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:33:15-79
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\ora-master\android\app\src\main\AndroidManifest.xml:36:13-39:29
+ADDED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:36:13-39:29
 action#android.intent.action.MAIN
-ADDED from E:\ora-master\android\app\src\main\AndroidManifest.xml:37:17-68
+ADDED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:37:17-68
 	android:name
-		ADDED from E:\ora-master\android\app\src\main\AndroidManifest.xml:37:25-66
+		ADDED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:37:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\ora-master\android\app\src\main\AndroidManifest.xml:38:17-76
+ADDED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:38:17-76
 	android:name
-		ADDED from E:\ora-master\android\app\src\main\AndroidManifest.xml:38:27-74
+		ADDED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:38:27-74
 meta-data#flutterEmbedding
-ADDED from E:\ora-master\android\app\src\main\AndroidManifest.xml:43:9-45:33
+ADDED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:43:9-45:33
 	android:value
-		ADDED from E:\ora-master\android\app\src\main\AndroidManifest.xml:45:13-30
+		ADDED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:45:13-30
 	android:name
-		ADDED from E:\ora-master\android\app\src\main\AndroidManifest.xml:44:13-44
+		ADDED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml:44:13-44
 uses-sdk
-INJECTED from E:\ora-master\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\ora-master\android\app\src\main\AndroidManifest.xml
-INJECTED from E:\ora-master\android\app\src\main\AndroidManifest.xml
-MERGED from [:video_player] E:\ora-master\build\video_player\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:video_player] E:\ora-master\build\video_player\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:fluttertoast] E:\ora-master\build\fluttertoast\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:fluttertoast] E:\ora-master\build\fluttertoast\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:shared_preferences] E:\ora-master\build\shared_preferences\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:shared_preferences] E:\ora-master\build\shared_preferences\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:flutter_inappwebview] E:\ora-master\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:flutter_inappwebview] E:\ora-master\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:stripe_payment] E:\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:stripe_payment] E:\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:url_launcher] E:\ora-master\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:url_launcher] E:\ora-master\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:sqflite] E:\ora-master\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:sqflite] E:\ora-master\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:path_provider] E:\ora-master\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:path_provider] E:\ora-master\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+INJECTED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml
+INJECTED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml
+MERGED from [:video_player] E:\hashtag progects\ora-master\build\video_player\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:video_player] E:\hashtag progects\ora-master\build\video_player\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] E:\hashtag progects\ora-master\build\fluttertoast\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] E:\hashtag progects\ora-master\build\fluttertoast\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] E:\hashtag progects\ora-master\build\shared_preferences\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] E:\hashtag progects\ora-master\build\shared_preferences\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_inappwebview] E:\hashtag progects\ora-master\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_inappwebview] E:\hashtag progects\ora-master\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:stripe_payment] E:\hashtag progects\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:stripe_payment] E:\hashtag progects\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:url_launcher] E:\hashtag progects\ora-master\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] E:\hashtag progects\ora-master\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] E:\hashtag progects\ora-master\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] E:\hashtag progects\ora-master\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] E:\hashtag progects\ora-master\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] E:\hashtag progects\ora-master\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [com.stripe:stripe-android:10.4.6] C:\Users\Prp\.gradle\caches\transforms-2\files-2.1\add83d1072afefdb7f87a1292b04eb4f\jetified-stripe-android-10.4.6\AndroidManifest.xml:7:5-9:41
 MERGED from [com.stripe:stripe-android:10.4.6] C:\Users\Prp\.gradle\caches\transforms-2\files-2.1\add83d1072afefdb7f87a1292b04eb4f\jetified-stripe-android-10.4.6\AndroidManifest.xml:7:5-9:41
 MERGED from [com.stripe:stripe-3ds2-android:1.2.2] C:\Users\Prp\.gradle\caches\transforms-2\files-2.1\918d596918a87360d93eed697e2a3739\jetified-stripe-3ds2-android-1.2.2\AndroidManifest.xml:7:5-9:41
@@ -274,92 +274,92 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Prp\.gradle\caches\transforms-
 MERGED from [androidx.print:print:1.0.0] C:\Users\Prp\.gradle\caches\transforms-2\files-2.1\86c784bf68d2d55319264b405834eb0f\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Prp\.gradle\caches\transforms-2\files-2.1\59ef8ff78b39f0fed4b156cee58382c6\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Prp\.gradle\caches\transforms-2\files-2.1\59ef8ff78b39f0fed4b156cee58382c6\cardview-1.0.0\AndroidManifest.xml:20:5-44
-INJECTED from E:\ora-master\android\app\src\debug\AndroidManifest.xml
-INJECTED from E:\ora-master\android\app\src\debug\AndroidManifest.xml
+INJECTED from E:\hashtag progects\ora-master\android\app\src\debug\AndroidManifest.xml
+INJECTED from E:\hashtag progects\ora-master\android\app\src\debug\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from E:\ora-master\android\app\src\main\AndroidManifest.xml
-		INJECTED from E:\ora-master\android\app\src\debug\AndroidManifest.xml
+		INJECTED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\hashtag progects\ora-master\android\app\src\debug\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\ora-master\android\app\src\main\AndroidManifest.xml
-		INJECTED from E:\ora-master\android\app\src\debug\AndroidManifest.xml
+		INJECTED from E:\hashtag progects\ora-master\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\hashtag progects\ora-master\android\app\src\debug\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from E:\ora-master\android\app\src\debug\AndroidManifest.xml:6:5-66
+ADDED from E:\hashtag progects\ora-master\android\app\src\debug\AndroidManifest.xml:6:5-66
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Prp\.gradle\caches\transforms-2\files-2.1\9cf7c419e652a5a556bb3052d5326f19\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Prp\.gradle\caches\transforms-2\files-2.1\9cf7c419e652a5a556bb3052d5326f19\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from E:\ora-master\android\app\src\debug\AndroidManifest.xml:6:22-64
+		ADDED from E:\hashtag progects\ora-master\android\app\src\debug\AndroidManifest.xml:6:22-64
 activity#com.pichillilorenzo.flutter_inappwebview.InAppBrowser.InAppBrowserActivity
-ADDED from [:flutter_inappwebview] E:\ora-master\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:47
+ADDED from [:flutter_inappwebview] E:\hashtag progects\ora-master\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:47
 	android:configChanges
-		ADDED from [:flutter_inappwebview] E:\ora-master\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-59
+		ADDED from [:flutter_inappwebview] E:\hashtag progects\ora-master\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-59
 	android:theme
-		ADDED from [:flutter_inappwebview] E:\ora-master\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-44
+		ADDED from [:flutter_inappwebview] E:\hashtag progects\ora-master\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-44
 	android:name
-		ADDED from [:flutter_inappwebview] E:\ora-master\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-102
+		ADDED from [:flutter_inappwebview] E:\hashtag progects\ora-master\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-102
 activity#com.pichillilorenzo.flutter_inappwebview.ChromeCustomTabs.ChromeCustomTabsActivity
-ADDED from [:flutter_inappwebview] E:\ora-master\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-15:55
+ADDED from [:flutter_inappwebview] E:\hashtag progects\ora-master\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-15:55
 	android:configChanges
-		ADDED from [:flutter_inappwebview] E:\ora-master\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-59
+		ADDED from [:flutter_inappwebview] E:\hashtag progects\ora-master\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-59
 	android:theme
-		ADDED from [:flutter_inappwebview] E:\ora-master\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-52
+		ADDED from [:flutter_inappwebview] E:\hashtag progects\ora-master\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-52
 	android:name
-		ADDED from [:flutter_inappwebview] E:\ora-master\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-110
+		ADDED from [:flutter_inappwebview] E:\hashtag progects\ora-master\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-110
 receiver#com.pichillilorenzo.flutter_inappwebview.ChromeCustomTabs.ActionBroadcastReceiver
-ADDED from [:flutter_inappwebview] E:\ora-master\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-118
+ADDED from [:flutter_inappwebview] E:\hashtag progects\ora-master\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-118
 	android:name
-		ADDED from [:flutter_inappwebview] E:\ora-master\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:17:19-115
+		ADDED from [:flutter_inappwebview] E:\hashtag progects\ora-master\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:17:19-115
 meta-data#com.google.android.gms.wallet.api.enabled
-ADDED from [:stripe_payment] E:\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-14:36
+ADDED from [:stripe_payment] E:\hashtag progects\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-14:36
 	android:value
-		ADDED from [:stripe_payment] E:\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-33
+		ADDED from [:stripe_payment] E:\hashtag progects\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-33
 	android:name
-		ADDED from [:stripe_payment] E:\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-69
+		ADDED from [:stripe_payment] E:\hashtag progects\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-69
 activity#com.gettipsi.stripe.OpenBrowserActivity
-ADDED from [:stripe_payment] E:\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-20:75
+ADDED from [:stripe_payment] E:\hashtag progects\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-20:75
 	android:launchMode
-		ADDED from [:stripe_payment] E:\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-44
+		ADDED from [:stripe_payment] E:\hashtag progects\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-44
 	android:exported
-		ADDED from [:stripe_payment] E:\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+		ADDED from [:stripe_payment] E:\hashtag progects\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
 	android:theme
-		ADDED from [:stripe_payment] E:\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-72
+		ADDED from [:stripe_payment] E:\hashtag progects\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-72
 	android:name
-		ADDED from [:stripe_payment] E:\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-67
+		ADDED from [:stripe_payment] E:\hashtag progects\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-67
 activity#com.gettipsi.stripe.RedirectUriReceiver
-ADDED from [:stripe_payment] E:\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:21:9-34:20
+ADDED from [:stripe_payment] E:\hashtag progects\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:21:9-34:20
 	android:launchMode
-		ADDED from [:stripe_payment] E:\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-44
+		ADDED from [:stripe_payment] E:\hashtag progects\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-44
 	android:exported
-		ADDED from [:stripe_payment] E:\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-36
+		ADDED from [:stripe_payment] E:\hashtag progects\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-36
 	android:theme
-		ADDED from [:stripe_payment] E:\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-83
+		ADDED from [:stripe_payment] E:\hashtag progects\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-83
 	android:name
-		ADDED from [:stripe_payment] E:\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-67
+		ADDED from [:stripe_payment] E:\hashtag progects\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-67
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:example
-ADDED from [:stripe_payment] E:\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-33:29
+ADDED from [:stripe_payment] E:\hashtag progects\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-33:29
 action#android.intent.action.VIEW
-ADDED from [:stripe_payment] E:\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:27:17-69
+ADDED from [:stripe_payment] E:\hashtag progects\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from [:stripe_payment] E:\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:27:25-66
+		ADDED from [:stripe_payment] E:\hashtag progects\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:27:25-66
 category#android.intent.category.DEFAULT
-ADDED from [:stripe_payment] E:\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:29:17-76
+ADDED from [:stripe_payment] E:\hashtag progects\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:29:17-76
 	android:name
-		ADDED from [:stripe_payment] E:\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:29:27-73
+		ADDED from [:stripe_payment] E:\hashtag progects\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:29:27-73
 category#android.intent.category.BROWSABLE
-ADDED from [:stripe_payment] E:\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:30:17-78
+ADDED from [:stripe_payment] E:\hashtag progects\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:30:17-78
 	android:name
-		ADDED from [:stripe_payment] E:\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:30:27-75
+		ADDED from [:stripe_payment] E:\hashtag progects\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:30:27-75
 data
-ADDED from [:stripe_payment] E:\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:32:17-50
+ADDED from [:stripe_payment] E:\hashtag progects\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:32:17-50
 	android:scheme
-		ADDED from [:stripe_payment] E:\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:32:23-47
+		ADDED from [:stripe_payment] E:\hashtag progects\ora-master\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:32:23-47
 activity#io.flutter.plugins.urllauncher.WebViewActivity
-ADDED from [:url_launcher] E:\ora-master\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+ADDED from [:url_launcher] E:\hashtag progects\ora-master\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
 	android:exported
-		ADDED from [:url_launcher] E:\ora-master\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+		ADDED from [:url_launcher] E:\hashtag progects\ora-master\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
 	android:theme
-		ADDED from [:url_launcher] E:\ora-master\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+		ADDED from [:url_launcher] E:\hashtag progects\ora-master\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
 	android:name
-		ADDED from [:url_launcher] E:\ora-master\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+		ADDED from [:url_launcher] E:\hashtag progects\ora-master\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
 activity#com.stripe.android.view.AddPaymentMethodActivity
 ADDED from [com.stripe:stripe-android:10.4.6] C:\Users\Prp\.gradle\caches\transforms-2\files-2.1\add83d1072afefdb7f87a1292b04eb4f\jetified-stripe-android-10.4.6\AndroidManifest.xml:12:9-14:57
 	android:theme

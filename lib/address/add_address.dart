@@ -1,11 +1,14 @@
 import 'package:country_code_picker/country_code_picker.dart';
 import 'package:flutter/material.dart';
-import 'modules.dart';
-import 'app_bar.dart';
-import 'Utils/decorations.dart';
-import 'Models/SignUpModel.dart';
+import 'package:ora_app/Providers/countries_providers.dart';
+import 'package:ora_app/address/componenets/country_picker.dart';
+import 'package:provider/provider.dart';
+import '../modules.dart';
+import '../app_bar.dart';
+import '../Utils/decorations.dart';
+import '../Models/SignUpModel.dart';
 import 'package:http/http.dart' as http;
-import 'package:ora_app/sign_up.dart';
+import 'file:///E:/hashtag%20progects/ora-master/lib/register/sign_up.dart';
 class Address extends StatefulWidget {
   final AddressModul address;
 
@@ -95,20 +98,20 @@ class _AddressFormUIState extends State<AddressFormUI> {
                       ),
                     ),
                   ),
-                  Container(
-                    height: 50,
-                    decoration: BoxDecoration(border: Border.all()),
-                    child:CountryCodePicker(
-                      initialSelection: 'DE',
-                      showCountryOnly: false,
-                      showOnlyCountryWhenClosed: true,
-                      favorite: ['+49'],
-                      alignLeft: true,
-                      onChanged: (CountryCode code){
-                        setState(() => countryCode = code.toString());
-                      },
-                    )
-                  ),
+
+                  FutureBuilder(
+                    future: Provider.of<CountryProvider>(context,listen: false).getCountries(),
+                    builder: (context, snapshot) {
+                      if(snapshot.connectionState == ConnectionState.done){
+                        return  CountryPicker(countries: snapshot.data,);
+                      }else{
+                        print("2222222");
+                        return Center(child: CircularProgressIndicator(backgroundColor: Theme.of(context).primaryColor,));
+                      }
+
+                    },
+                  )
+                 ,
                   SizedBox(
                     height: 20,
                   ),

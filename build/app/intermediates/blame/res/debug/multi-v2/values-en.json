@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\ora-master\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "outputFile": "E:\\hashtag progects\\ora-master\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Prp\\.gradle\\caches\\transforms-2\\files-2.1\\918d596918a87360d93eed697e2a3739\\jetified-stripe-3ds2-android-1.2.2\\res\\values-en\\values-en.xml",

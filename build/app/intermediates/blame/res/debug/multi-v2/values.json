@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\ora-master\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "E:\\hashtag progects\\ora-master\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Prp\\.gradle\\caches\\transforms-2\\files-2.1\\aca46272612c4216f600c322145deaa2\\browser-1.2.0\\res\\values\\values.xml",
@@ -56,23 +56,6 @@
                         "endLines": "11,3203,4037,4126",
                         "endColumns": "60,12,24,24",
                         "endOffsets": "698,211458,258200,263411"
-                    }
-                },
-                {
-                    "source": "E:\\ora-master\\build\\stripe_payment\\intermediates\\packaged_res\\debug\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,101,148",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "96,143,194"
-                    },
-                    "to": {
-                        "startLines": "73,74,75",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "4583,4629,4676",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "4624,4671,4722"
                     }
                 },
                 {
@@ -131,22 +114,22 @@
                     }
                 },
                 {
-                    "source": "E:\\ora-master\\build\\flutter_inappwebview\\intermediates\\packaged_res\\debug\\values\\values.xml",
+                    "source": "E:\\hashtag progects\\ora-master\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,11,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,102,153,210,259,306,353,426,502",
-                        "endLines": "2,3,4,5,6,7,10,13,21",
-                        "endColumns": "46,50,56,48,46,46,12,12,12",
-                        "endOffsets": "97,148,205,254,301,348,421,497,949"
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "134,777",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "426,937"
                     },
                     "to": {
-                        "startLines": "589,590,591,592,593,698,733,2182,2778",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "37351,37398,37449,37506,37555,46304,49144,143011,183849",
-                        "endLines": "589,590,591,592,593,698,735,2184,2785",
-                        "endColumns": "46,50,56,48,46,46,12,12,12",
-                        "endOffsets": "37393,37444,37501,37550,37597,46346,49212,143082,184296"
+                        "startLines": "2185,2190",
+                        "startColumns": "4,4",
+                        "startOffsets": "143087,143384",
+                        "endLines": "2189,2192",
+                        "endColumns": "12,12",
+                        "endOffsets": "143379,143544"
                     }
                 },
                 {
@@ -169,22 +152,39 @@
                     }
                 },
                 {
-                    "source": "E:\\ora-master\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "E:\\hashtag progects\\ora-master\\build\\stripe_payment\\intermediates\\packaged_res\\debug\\values\\values.xml",
                     "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "134,777",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "426,937"
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,101,148",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "96,143,194"
                     },
                     "to": {
-                        "startLines": "2185,2190",
-                        "startColumns": "4,4",
-                        "startOffsets": "143087,143384",
-                        "endLines": "2189,2192",
-                        "endColumns": "12,12",
-                        "endOffsets": "143379,143544"
+                        "startLines": "73,74,75",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "4583,4629,4676",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "4624,4671,4722"
+                    }
+                },
+                {
+                    "source": "E:\\hashtag progects\\ora-master\\build\\flutter_inappwebview\\intermediates\\packaged_res\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,11,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,102,153,210,259,306,353,426,502",
+                        "endLines": "2,3,4,5,6,7,10,13,21",
+                        "endColumns": "46,50,56,48,46,46,12,12,12",
+                        "endOffsets": "97,148,205,254,301,348,421,497,949"
+                    },
+                    "to": {
+                        "startLines": "589,590,591,592,593,698,733,2182,2778",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "37351,37398,37449,37506,37555,46304,49144,143011,183849",
+                        "endLines": "589,590,591,592,593,698,735,2184,2785",
+                        "endColumns": "46,50,56,48,46,46,12,12,12",
+                        "endOffsets": "37393,37444,37501,37550,37597,46346,49212,143082,184296"
                     }
                 },
                 {
@@ -202,25 +202,6 @@
                         "startOffsets": "8595,27998,28051,28104,28157,166391,166567,166689,166951,167146",
                         "endColumns": "88,52,52,52,52,65,121,60,65,66",
                         "endOffsets": "8679,28046,28099,28152,28205,166452,166684,166745,167012,167208"
-                    }
-                },
-                {
-                    "source": "E:\\ora-master\\android\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "109"
-                    },
-                    "to": {
-                        "startLines": "149",
-                        "startColumns": "4",
-                        "startOffsets": "9728",
-                        "endLines": "151",
-                        "endColumns": "12",
-                        "endOffsets": "9778"
                     }
                 },
                 {
@@ -276,6 +257,25 @@
                         "startOffsets": "33609,42992",
                         "endColumns": "67,166",
                         "endOffsets": "33672,43154"
+                    }
+                },
+                {
+                    "source": "E:\\hashtag progects\\ora-master\\android\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "109"
+                    },
+                    "to": {
+                        "startLines": "149",
+                        "startColumns": "4",
+                        "startOffsets": "9728",
+                        "endLines": "151",
+                        "endColumns": "12",
+                        "endOffsets": "9778"
                     }
                 },
                 {

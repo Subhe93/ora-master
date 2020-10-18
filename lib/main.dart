@@ -3,10 +3,12 @@ import 'package:flutter/services.dart';
 import 'package:ora_app/Providers/Cart_Provider.dart';
 import 'package:ora_app/Providers/categories_provider.dart';
 import 'package:ora_app/Providers/change_password_provider.dart';
+import 'package:ora_app/Providers/countries_providers.dart';
 import 'package:ora_app/Providers/get_subCats_provider.dart';
+import 'package:ora_app/Providers/implants_provider.dart';
 import 'package:ora_app/Providers/login_provider.dart';
 import 'package:ora_app/Util/session_manager.dart';
-import 'package:ora_app/add_address.dart';
+import 'file:///E:/hashtag%20progects/ora-master/lib/address/add_address.dart';
 import 'package:ora_app/bottom_navigation_bar.dart';
 import 'package:ora_app/cart.dart';
 import 'package:ora_app/catalogue.dart';
@@ -19,9 +21,10 @@ import 'package:ora_app/list_products/Products_list.dart';
 
 import 'package:ora_app/products.dart';
 import 'package:ora_app/profile.dart';
+import 'package:ora_app/prosthetic/prosthetic_screen.dart';
 import 'package:ora_app/search/model/search/search_model.dart';
 import 'package:ora_app/sign_in.dart';
-import 'package:ora_app/sign_up.dart';
+import 'file:///E:/hashtag%20progects/ora-master/lib/register/sign_up.dart';
 import 'package:ora_app/sub_categries_screen.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -33,9 +36,8 @@ import 'landingPage/landing_page.dart';
 import 'my_orders/my_orders.dart';
 
 Future<void> main() async {
-  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
-      statusBarColor:  Color(0xFF0d8083)
-  ));
+  SystemChrome.setSystemUIOverlayStyle(
+      SystemUiOverlayStyle(statusBarColor: Color(0xFF0d8083)));
   WidgetsFlutterBinding.ensureInitialized();
   LogInProvider mainProvider = new LogInProvider();
   SessionManager sessionManager = SessionManager();
@@ -45,22 +47,20 @@ Future<void> main() async {
     value = true;
   }
 
-
   runApp(MultiProvider(
     providers: [
       ChangeNotifierProvider<LogInProvider>(create: (_) => LogInProvider()),
-
-
-      ChangeNotifierProvider<ChangePasswordProvider>(create: (_) => ChangePasswordProvider()),
+      ChangeNotifierProvider<CountryProvider>(create: (_) => CountryProvider()),
+      ChangeNotifierProvider<ChangePasswordProvider>(
+          create: (_) => ChangePasswordProvider()),
       ChangeNotifierProvider<SubCategoryProvider>(
           create: (context) => SubCategoryProvider()),
       ChangeNotifierProvider<CategoriesProvider>(
           create: (context) => CategoriesProvider()),
       ChangeNotifierProvider<CartProvider>(create: (context) => CartProvider()),
+      ChangeNotifierProvider<ImplantProvider>(create: (_) => ImplantProvider()),
     ],
-
     child: MaterialApp(
-
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primaryColor: Color(0xFF0d8083),
@@ -71,15 +71,15 @@ Future<void> main() async {
       routes: {
         '/': (context) => value ? LandingPage() : BottomBar(),
         '/splash': (context) => SecondSplash(),
-         '/Home': (context) => BottomBar(),
-         '/PROFILE': (context) => Profile(),
+        '/Home': (context) => BottomBar(),
+        '/PROFILE': (context) => Profile(),
         '/IMPLANTS': (context) => SubCategories(),
-        '/PROSTHETIC': (context) => SubCategories(),
+        '/PROSTHETIC': (context) => Prosthetic(),
         '/EVENTS & EDUCATIONS': (context) => EventsAndEducations(),
         '/CATALOGUE': (context) => Catalogue(),
-         '/0': (context) => BottomBar(),
-         '/1': (context) => MyCart(),
-         '/2': (context) => Profile(),
+        '/0': (context) => BottomBar(),
+        '/1': (context) => MyCart(),
+        '/2': (context) => Profile(),
         '/MY ORDERS': (context) => MyOrders(),
         '/Login | Register': (context) => SignIn(),
         '/reg': (BuildContext context) => SignUp(),

@@ -1,6 +1,8 @@
 import 'dart:io';
 
+import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
+import 'package:http/http.dart';
 import 'dart:async';
 
 import 'package:ora_app/Models/ChangePasswordBody.dart';
@@ -8,6 +10,7 @@ import 'package:ora_app/Models/StringSuccessResponse.dart';
 import 'package:ora_app/Models/userModel.dart';
 
 const baseUrl = "http://ora.hashtagweb.online/api";
+const newBaseUrl = "http://test-ora.hashtagweb.online/api";
 
 class API {
 
@@ -63,7 +66,7 @@ class API {
 
   Future login(String email, String password) async {
     try {
-      final String apiUrl = baseUrl+'/login';
+      final String apiUrl = newBaseUrl+'/login';
       final response =
       await http.post(apiUrl, body: {"email": email, "password": password});
 
@@ -111,5 +114,21 @@ class API {
     });
     return response;
   }
+
+   Future getCountries() async{
+     var url = newBaseUrl+"/getCountries";
+     
+     Response response = await http.get(url);
+
+     return response;
+
+  }
+
+   Future getImplants() async{
+     var url = newBaseUrl + "/implant/getCats";
+     http.Response response = await http.get(url);
+     return response;
+   }
+
 
 }

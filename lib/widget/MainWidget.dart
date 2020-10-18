@@ -18,7 +18,7 @@ Widget MainWidget(String title , String image , BuildContext context){
                 Center(
                   child:FadeInImage.assetNetwork(
                     placeholder: 'assets/loading.gif',
-                    image: ('http://ora.hashtagweb.online'+image),
+                    image: ('http://test-ora.hashtagweb.online'+image),
                   )
                 ),
                 //

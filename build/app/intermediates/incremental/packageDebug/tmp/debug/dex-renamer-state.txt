@@ -1,4 +1,4 @@
-#Sun Oct 11 17:23:35 EEST 2020
+#Sun Oct 18 16:13:18 EEST 2020
 path.1=classes.dex
 path.0=classes.dex
 renamed.10=classes11.dex
@@ -10,19 +10,19 @@ renamed.5=classes6.dex
 renamed.4=classes5.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
-base.9=E\:\\ora-master\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\classes_6.dex
+base.9=E\:\\hashtag progects\\ora-master\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\classes_6.dex
 renamed.1=classes2.dex
-base.8=E\:\\ora-master\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\classes_5.dex
+base.8=E\:\\hashtag progects\\ora-master\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\classes_5.dex
 renamed.0=classes.dex
-base.7=E\:\\ora-master\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\classes_4.dex
-base.6=E\:\\ora-master\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\classes_3.dex
-base.5=E\:\\ora-master\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\classes_2.dex
-base.4=E\:\\ora-master\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\classes_1.dex
-base.3=E\:\\ora-master\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\classes_0.dex
-base.2=E\:\\ora-master\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.1=E\:\\ora-master\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
-base.0=E\:\\ora-master\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.10=E\:\\ora-master\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\classes_7.dex
+base.7=E\:\\hashtag progects\\ora-master\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\classes_4.dex
+base.6=E\:\\hashtag progects\\ora-master\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\classes_3.dex
+base.5=E\:\\hashtag progects\\ora-master\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\classes_2.dex
+base.4=E\:\\hashtag progects\\ora-master\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\classes_1.dex
+base.3=E\:\\hashtag progects\\ora-master\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\classes_0.dex
+base.2=E\:\\hashtag progects\\ora-master\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.1=E\:\\hashtag progects\\ora-master\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
+base.0=E\:\\hashtag progects\\ora-master\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.10=E\:\\hashtag progects\\ora-master\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\classes_7.dex
 path.10=classes_7.dex
 path.9=classes_6.dex
 path.8=classes_5.dex

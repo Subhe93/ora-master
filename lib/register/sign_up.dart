@@ -2,20 +2,20 @@ import 'package:flutter/material.dart';
 import 'package:ora_app/Models/SignUpModel.dart';
 import 'package:ora_app/Utils/form_validators.dart';
 import 'package:ora_app/sign_in.dart';
-import 'add_address.dart';
-import 'Utils/decorations.dart';
+import '../address/add_address.dart';
+import '../Utils/decorations.dart';
 
 import 'package:flutter/material.dart';
 import 'package:ora_app/Util/session_manager.dart';
 import 'package:ora_app/home_page.dart';
-import 'package:ora_app/sign_up.dart';
-import 'Models/userModel.dart';
-import 'Utils/decorations.dart';
+import 'file:///E:/hashtag%20progects/ora-master/lib/register/sign_up.dart';
+import '../Models/userModel.dart';
+import '../Utils/decorations.dart';
 import 'package:http/http.dart' as http;
 import 'package:ora_app/modules.dart';
 import 'package:ora_app/Models/rigesterBody.dart';
 
-import 'bottom_navigation_bar.dart';
+import '../bottom_navigation_bar.dart';
 
 final _signUpKey = GlobalKey<FormState>();
 

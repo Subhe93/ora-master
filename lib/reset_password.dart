@@ -6,7 +6,7 @@ import 'package:ora_app/Models/rigesterBody.dart';
 import 'package:ora_app/home_page.dart';
 import 'package:ora_app/profile.dart';
 import 'package:ora_app/sign_in.dart';
-import 'package:ora_app/sign_up.dart';
+import 'file:///E:/hashtag%20progects/ora-master/lib/register/sign_up.dart';
 import 'My_Addresses.dart';
 import 'Network/API.dart';
 import 'app_bar.dart';

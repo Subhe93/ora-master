@@ -6,6 +6,7 @@ import 'package:ora_app/Utils/Constants.dart';
 // We need satefull widget for our categories
 
 class Categories extends StatefulWidget {
+
   @override
   _CategoriesState createState() => _CategoriesState();
 }
