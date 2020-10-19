@@ -130,5 +130,17 @@ class API {
      return response;
    }
 
+   Future getCities(String country) async {
+     var url = newBaseUrl + "/getCities/" + country.trim();
+     http.Response response = await http.get(url);
+
+     return response;
+   }
+
+   Future getDiameters(int implantId) async{
+     var url = newBaseUrl + "/implant/getDias/{$implantId}";
+     http.Response response = await http.get(url);
+     return response;
+   }
 
 }

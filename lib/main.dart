@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:ora_app/Providers/Cart_Provider.dart';
 import 'package:ora_app/Providers/categories_provider.dart';
 import 'package:ora_app/Providers/change_password_provider.dart';
+import 'package:ora_app/Providers/citiesProvider.dart';
 import 'package:ora_app/Providers/countries_providers.dart';
 import 'package:ora_app/Providers/get_subCats_provider.dart';
 import 'package:ora_app/Providers/implants_provider.dart';
@@ -51,6 +52,7 @@ Future<void> main() async {
     providers: [
       ChangeNotifierProvider<LogInProvider>(create: (_) => LogInProvider()),
       ChangeNotifierProvider<CountryProvider>(create: (_) => CountryProvider()),
+      ChangeNotifierProvider<CitiesProvider>(create: (_) => CitiesProvider()),
       ChangeNotifierProvider<ChangePasswordProvider>(
           create: (_) => ChangePasswordProvider()),
       ChangeNotifierProvider<SubCategoryProvider>(

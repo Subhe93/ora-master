@@ -1,10 +1,10 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'file:///E:/hashtag%20progects/ora-master/lib/Utils/app_url.dart';
 
 
 Widget MainWidget(String title , String image , BuildContext context){
-  print('testing :' +title+image);
   return Container(
     height: 200,
     child: ClipRRect(
@@ -18,7 +18,7 @@ Widget MainWidget(String title , String image , BuildContext context){
                 Center(
                   child:FadeInImage.assetNetwork(
                     placeholder: 'assets/loading.gif',
-                    image: ('http://test-ora.hashtagweb.online'+image),
+                    image: (AppUrl.imageUrl+image),
                   )
                 ),
                 //

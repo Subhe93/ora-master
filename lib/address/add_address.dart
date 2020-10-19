@@ -1,6 +1,8 @@
 import 'package:country_code_picker/country_code_picker.dart';
 import 'package:flutter/material.dart';
+import 'package:ora_app/Providers/citiesProvider.dart';
 import 'package:ora_app/Providers/countries_providers.dart';
+import 'package:ora_app/address/componenets/city_picker.dart';
 import 'package:ora_app/address/componenets/country_picker.dart';
 import 'package:provider/provider.dart';
 import '../modules.dart';
@@ -9,9 +11,9 @@ import '../Utils/decorations.dart';
 import '../Models/SignUpModel.dart';
 import 'package:http/http.dart' as http;
 import 'file:///E:/hashtag%20progects/ora-master/lib/register/sign_up.dart';
+
 class Address extends StatefulWidget {
   final AddressModul address;
-
 
   const Address({Key key, this.address}) : super(key: key);
 
@@ -19,38 +21,28 @@ class Address extends StatefulWidget {
   _AddressState createState() => _AddressState();
 }
 
-Future<SignUpModel> register(String email, String password) async{
+Future<SignUpModel> register(String email, String password) async {
   final String apiUrl = "http://ora.hashtagweb.online/api/register";
-  final response = await http.post(apiUrl,body:{
-    "email":email,
-    "password":password
-  } );
+  final response =
+      await http.post(apiUrl, body: {"email": email, "password": password});
 
-
-  if(response.statusCode==200){
+  if (response.statusCode == 200) {
     final String responseString = response.body;
     return signUpModelFromJson(responseString);
-
-  }else{
+  } else {
     return null;
   }
-
 }
 
 class _AddressState extends State<Address> {
-
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: topBar(context, barWithBack(context), Text ('Add Address'),barWithSearch(context)),
-       body: AddressFormUI(),
-
+      appBar: topBar(context, barWithBack(context), Text('Add Address'),
+          barWithSearch(context)),
+      body: AddressFormUI(),
     );
-
   }
-  
 }
 
 class AddressFormUI extends StatefulWidget {
@@ -59,7 +51,7 @@ class AddressFormUI extends StatefulWidget {
 }
 
 class _AddressFormUIState extends State<AddressFormUI> {
-  String countryCode='';
+  String countryCode = '';
   final TextEditingController countryController = TextEditingController();
   final TextEditingController fullNameController = TextEditingController();
   final TextEditingController adreesLine1Controller = TextEditingController();
@@ -71,7 +63,6 @@ class _AddressFormUIState extends State<AddressFormUI> {
 
   @override
   Widget build(BuildContext context) {
-
     return SingleChildScrollView(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -89,7 +80,7 @@ class _AddressFormUIState extends State<AddressFormUI> {
                     height: 20,
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(bottom : 8.0 , left: 3.0),
+                    padding: const EdgeInsets.only(bottom: 8.0, left: 3.0),
                     child: Text(
                       'Country',
                       style: TextStyle(
@@ -98,25 +89,56 @@ class _AddressFormUIState extends State<AddressFormUI> {
                       ),
                     ),
                   ),
-
                   FutureBuilder(
-                    future: Provider.of<CountryProvider>(context,listen: false).getCountries(),
+                    future: Provider.of<CountryProvider>(context, listen: false)
+                        .getCountries(),
                     builder: (context, snapshot) {
-                      if(snapshot.connectionState == ConnectionState.done){
-                        return  CountryPicker(countries: snapshot.data,);
-                      }else{
-                        print("2222222");
-                        return Center(child: CircularProgressIndicator(backgroundColor: Theme.of(context).primaryColor,));
+                      if (snapshot.connectionState == ConnectionState.done) {
+                        return CountryPicker(
+                          countries: snapshot.data,
+                          loadCities: () {
+                            setState(() {
+                              Provider.of<CitiesProvider>(context,
+                                      listen: false)
+                                  .getCities(Provider.of<CountryProvider>(
+                                          context,
+                                          listen: false)
+                                      .getSelectedCountry());
+                            });
+                          },
+                        );
+                      } else {
+                        return Center(
+                            child: CircularProgressIndicator(
+                          backgroundColor: Theme.of(context).primaryColor,
+                        ));
                       }
-
                     },
-                  )
-                 ,
+                  ),
                   SizedBox(
                     height: 20,
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(bottom : 8.0 , left: 3.0),
+                    padding: const EdgeInsets.only(bottom: 8.0, left: 3.0),
+                    child: Text(
+                      'City',
+                      style: TextStyle(
+                        color: Colors.black54,
+                        fontSize: 13,
+                      ),
+                    ),
+                  ),
+
+                       CityPicker(),
+                      // : Center(
+                      //     child: CircularProgressIndicator(
+                      //     backgroundColor: Theme.of(context).primaryColor,
+                      //   )),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(bottom: 8.0, left: 3.0),
                     child: Text(
                       'Full Name',
                       style: TextStyle(
@@ -136,7 +158,7 @@ class _AddressFormUIState extends State<AddressFormUI> {
                     height: 20,
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(bottom : 8.0 , left: 3.0),
+                    padding: const EdgeInsets.only(bottom: 8.0, left: 3.0),
                     child: Text(
                       'Address Line 1',
                       style: TextStyle(
@@ -156,7 +178,7 @@ class _AddressFormUIState extends State<AddressFormUI> {
                     height: 20,
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(bottom : 8.0 , left: 3.0),
+                    padding: const EdgeInsets.only(bottom: 8.0, left: 3.0),
                     child: Text(
                       'Address Line 2',
                       style: TextStyle(
@@ -176,7 +198,7 @@ class _AddressFormUIState extends State<AddressFormUI> {
                     height: 20,
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(bottom : 8.0 , left: 3.0),
+                    padding: const EdgeInsets.only(bottom: 8.0, left: 3.0),
                     child: Text(
                       'City',
                       style: TextStyle(
@@ -196,7 +218,7 @@ class _AddressFormUIState extends State<AddressFormUI> {
                     height: 20,
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(bottom : 8.0 , left: 3.0),
+                    padding: const EdgeInsets.only(bottom: 8.0, left: 3.0),
                     child: Text(
                       'State',
                       style: TextStyle(
@@ -216,7 +238,7 @@ class _AddressFormUIState extends State<AddressFormUI> {
                     height: 20,
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(bottom : 8.0 , left: 3.0),
+                    padding: const EdgeInsets.only(bottom: 8.0, left: 3.0),
                     child: Text(
                       'Zip Code',
                       style: TextStyle(
@@ -236,7 +258,7 @@ class _AddressFormUIState extends State<AddressFormUI> {
                     height: 20,
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(bottom : 8.0 , left: 3.0),
+                    padding: const EdgeInsets.only(bottom: 8.0, left: 3.0),
                     child: Text(
                       'Phone Number',
                       style: TextStyle(
@@ -258,7 +280,7 @@ class _AddressFormUIState extends State<AddressFormUI> {
                 ],
               ),
             ),
-          ) ,
+          ),
           Container(
             width: MediaQuery.of(context).size.width,
             alignment: Alignment.center,
@@ -270,12 +292,16 @@ class _AddressFormUIState extends State<AddressFormUI> {
               ),
               elevation: 0,
               onPressed: () {
-                final addressModul = AddressModul(countryCode,fullNameController.text,adreesLine1Controller.text,
-                    adressLine2Controller.text,cityController.text,stateController.text,zipCodeController.text,phoneController.text);
-              Navigator.pop(
-                context
-
-              );
+                final addressModul = AddressModul(
+                    countryCode,
+                    fullNameController.text,
+                    adreesLine1Controller.text,
+                    adressLine2Controller.text,
+                    cityController.text,
+                    stateController.text,
+                    zipCodeController.text,
+                    phoneController.text);
+                Navigator.pop(context);
               },
               child: Text(
                 "Add address",
@@ -288,7 +314,5 @@ class _AddressFormUIState extends State<AddressFormUI> {
         ],
       ),
     );
-
   }
 }
-
